@@ -21,7 +21,11 @@ export default async function Home() {
   const cookieStore = await cookies()
   const startPageDismissed = cookieStore.get('start_page_dismissed')?.value === '1'
 
-  if (!startPageDismissed) {
+  // asystem: in non-demo (production) mode, skip the demo start page entirely —
+  // go straight into the app. The /start page only fronts demo installs.
+  const demoModeEnabled = process.env.DEMO_MODE !== 'false'
+
+  if (demoModeEnabled && !startPageDismissed) {
     redirect('/start')
   }
 
