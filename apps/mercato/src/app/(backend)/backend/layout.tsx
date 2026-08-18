@@ -89,7 +89,7 @@ export default async function BackendLayout({
     : []
   const canManageUpgradeActions =
     auth?.isSuperAdmin === true || hasAllFeatures(['configs.manage'], grantedFeatures)
-  const baseProductName = translate('appShell.productName', 'Open Mercato')
+  const baseProductName = translate('appShell.productName', 'asystem ERP')
   const productName = deployEnv && deployEnv !== 'local'
     ? `${baseProductName} (${deployEnv.charAt(0).toUpperCase() + deployEnv.slice(1)})`
     : baseProductName
