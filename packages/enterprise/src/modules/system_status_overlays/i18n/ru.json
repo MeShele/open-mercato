@@ -1,0 +1,8 @@
+{
+  "system_status_overlays.enterpriseInfo.description": "В этой среде запущена редакция Enterprise.",
+  "system_status_overlays.enterpriseInfo.editionBadge": "Enterprise",
+  "system_status_overlays.enterpriseInfo.editionLabel": "Редакция",
+  "system_status_overlays.enterpriseInfo.editionValue": "Enterprise",
+  "system_status_overlays.enterpriseInfo.title": "Редакция и версия",
+  "system_status_overlays.enterpriseInfo.versionLabel": "Версия"
+}

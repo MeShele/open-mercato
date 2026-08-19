@@ -1,0 +1,20 @@
+{
+  "progress.actions.cancel": "Отмена",
+  "progress.actions.dismiss": "Скрыть",
+  "progress.actions.retry": "Повторить",
+  "progress.activeCount": "{count} операций выполняется",
+  "progress.errors.alreadyFinished": "Задача уже завершена",
+  "progress.errors.cannotCancel": "Эту задачу нельзя отменить",
+  "progress.errors.notFound": "Задача не найдена",
+  "progress.eta.hoursMinutes": "осталось {hours} ч {minutes} мин",
+  "progress.eta.minutes": "осталось {count} мин",
+  "progress.eta.seconds": "осталось {count} с",
+  "progress.processed": "обработано",
+  "progress.recentlyCompleted": "{count} операций завершено",
+  "progress.status.cancelled": "Отменено",
+  "progress.status.completed": "Завершено",
+  "progress.status.failed": "Ошибка",
+  "progress.status.pending": "В ожидании",
+  "progress.status.running": "Выполняется",
+  "progress.title": "Прогресс"
+}
